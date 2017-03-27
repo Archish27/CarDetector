@@ -1,3 +1,22 @@
 <resources>
-    <string name="app_name">CarDetector</string>
+    <string name="app_name">Car Detector</string>
+    <string name="about">About</string>
+    <string name="scan">Scan</string>
+    <string name="verify">Verify</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="choose_from_gallery">Choose from gallery</string>
+    <!-- Network error message-->
+    <string name="unknown_error">Some unknown error occurred.</string>
+    <string name="network_error">Please check your internet connection.</string>
+    <string name="system_error">Something went wrong. Please try again later.</string>
+    <string name="number_plate">Number Plate</string>
+    <string name="or">OR</string>
+    <string name="scan_number_plate">SCAN NUMBER PLATE</string>
+    <string name="save">Save</string>
+    <string name="name">Name</string>
+    <string name="state">State</string>
+    <string name="car_details">Car Details</string>
+    <string name="upload_car_image">Upload Car Image</string>
+    <string name="show_all_cars">SHOW ALL CARS</string>
+
 </resources>

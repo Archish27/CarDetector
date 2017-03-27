@@ -7,5 +7,24 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="BaseButton" parent="Widget.AppCompat.Button">
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@drawable/button_state</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="PrimaryText" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:alpha">0.87</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:padding">2dp</item>
+    </style>
 
 </resources>
